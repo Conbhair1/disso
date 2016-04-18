@@ -1,0 +1,21 @@
+html, body {
+	height: 97%;
+	padding: 0;
+	margin: 0;
+}
+div {
+	width: 50%;
+	height: 47%;
+	float: right;
+	margin: 5px;
+}
+.choice
+{
+	width:49%;
+	height:100%;
+	position:relative;
+}
+h1{
+	font-size-size: 1.5em;
+	text-align: center;
+}

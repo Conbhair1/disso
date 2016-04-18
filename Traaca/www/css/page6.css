@@ -1,0 +1,23 @@
+html, body {
+	height: 94%;
+	padding: 0;
+	margin: 0;
+}
+div {
+	width: 50%;
+	height: 30%;
+	float: right;
+	margin:5px;
+}
+.choice
+{
+	width:33%;
+	height:100%;
+	position:relative;
+}
+h1{
+	text-align: center;
+}
+h2{
+	text-align: center;
+	}

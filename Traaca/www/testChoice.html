@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<!--
+    Copyright (c) 2012-2014 Adobe Systems Incorporated. All rights reserved.
+
+    Licensed to the Apache Software Foundation (ASF) under one
+    or more contributor license agreements.  See the NOTICE file
+    distributed with this work for additional information
+    regarding copyright ownership.  The ASF licenses this file
+    to you under the Apache License, Version 2.0 (the
+    "License"); you may not use this file except in compliance
+    with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+    Unless required by applicable law or agreed to in writing,
+    software distributed under the License is distributed on an
+    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+     KIND, either express or implied.  See the License for the
+    specific language governing permissions and limitations
+    under the License.
+-->
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+	<link rel="stylesheet" type"text/css" href="css/testChoice.css" />
+	
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	
+	
+	<script type="text/javascript" src="cordova.js"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+	<script type="text/javascript">
+		function onLoad()
+		{
+			document.addEventListener("deviceready", onDeviceReady, true);
+		}
+		function onDeviceReady()
+		{
+		}
+		function symbols4()
+		{
+			window.location = "page2.html";
+		}
+		function symbols9()
+		{
+			window.location = "page6.html";
+		}
+		function catSymbols9()
+		{
+			window.location = "page9.html";
+		}
+		function symbols24()
+		{
+			window.location = "page10.html";
+		}
+		function shapes()
+		{
+			window.location = "page12.html";
+		}
+		function colourShapes()
+		{
+			window.location = "page13.html";
+		}
+		function letters()
+		{
+			window.location = "page14.html";
+		}
+	</script>
+</head>
+
+<body onload="onLoad();">
+	<div class="container" id="splashdiv">
+		<h1>Please choose an assessment</h1>
+	</div>
+	<div class="container">
+		<button type="button" class="btn btn-primary btn-lg" onclick="symbols4()">Visual Acuity - 4 Symbols</button>
+		<button type="button" class="btn btn-primary btn-lg" onclick="symbols9()">Visual Acuity - 9 Symbols</button>
+		<button type="button" class="btn btn-primary btn-lg" onclick="catSymbols9()">Categorisation - 9 Symbols</button>
+		</div>
+		<div class="container">
+		<button type="button" class="btn btn-primary btn-lg" onclick="symbols24()">Categorisation - 24 Symbols</button>
+		<button type="button" class="btn btn-primary btn-lg" onclick="shapes()">Visual Acuity - Shapes</button>
+		<button type="button" class="btn btn-primary btn-lg" onclick="colourShapes()">Visual Acuity - Coloured Shapes</button>
+		</div>
+		<div class="container">
+		<button type="button" class="btn btn-primary btn-lg" onclick="letters()">Visual Acuity - Letters</button>
+	</div>
+	
+
+</body>
+
+</html>

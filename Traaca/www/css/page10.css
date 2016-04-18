@@ -1,0 +1,23 @@
+html, body {
+	height: 93%;
+	padding: 0;
+	margin: 0;
+}
+div {
+	width: 80%;
+	height: 24%;
+	float: right;
+}
+.choice
+{
+	width:16%;
+	height:60%;
+	white-space: nowrap;
+
+}
+h1{
+	text-align: center;
+}
+h2{
+	text-align: center;
+}

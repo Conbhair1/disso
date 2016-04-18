@@ -1,0 +1,20 @@
+#splashdiv{
+	text-align: center;
+}
+.buttonpaper{
+	width: 50%;
+	height: 30%;
+	
+	position: absolute;
+	top:0%;
+	bottom: 0;
+	left: 0%;
+	right: 0;
+	
+	margin: auto;
+}
+.button{
+	height: 20px;
+	width: 20px;
+	padding: 10px;
+}
